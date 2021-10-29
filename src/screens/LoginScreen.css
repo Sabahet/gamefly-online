@@ -1,0 +1,99 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: white;
+    left:0;
+    right: 0;
+}
+
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    padding-top: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+
+}
+.joystick{
+    position: fixed;
+    padding-top: 450px;
+    padding-left: 300px;
+}
+.review{
+    position: fixed;
+    padding-top: 200px;
+    padding-left: 75px;
+}
+.loginScreen_button{
+    position: fixed;
+    right:515px;
+    top: 400px;
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #1565D8;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.join-now{
+    position: fixed;
+    font-size: 40px;
+    padding-left: 970px ;
+    padding-top: 125px;
+}
+.email{
+    position: fixed;
+    right: 400px;
+    top: 250px;
+    outline-width: 0;
+    height:30px;
+    width:20%;
+    border-radius: 4px;
+    max-width:600px;
+}
+.pass{
+    position: fixed;
+    outline-width: 0;
+    right: 400px;
+    top: 300px;
+    height:30px;
+    width:20%;
+    border-radius: 4px;
+    max-width:600px;
+}
+.login-button{
+    position: fixed;
+    right:530px;
+    top: 480px;
+    padding:10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #1565D8;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.already-have{
+    position: fixed;
+    right:500px;
+    top: 445px;
+    color:gray;
+    opacity:50%;
+    
+
+}
+.Confpass{
+        position: fixed;
+        outline-width: 0;
+        right: 400px;
+        top: 350px;
+        height:30px;
+        width:20%;
+        border-radius: 4px;
+        max-width:600px;
+
+}
