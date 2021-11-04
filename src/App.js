@@ -11,6 +11,7 @@ import { auth } from './firebase';
 import {useDispatch,useSelector} from "react-redux"
 import { login,logout,selectUser } from './features/userSlice';
 import Profile from "./screens/ProfileScreen.js"
+import SearchResults from './screens/SearchResults';
 
 function App() {
 const user = useSelector(selectUser)
@@ -46,6 +47,9 @@ return unsubscribe;
         <Route path = "/profile">
         <Profile/>
         </Route>
+        <Route path = "/searchResults">
+      <SearchResults/>
+          </Route>
       <Route exact path="/">
       <HomeScreen />
       </Route>

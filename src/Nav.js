@@ -5,6 +5,8 @@ import avatar from "./images/pngegg.png"
 import {useDispatch,useSelector} from "react-redux"
 import { login,logout,selectUser } from './features/userSlice';
 import { useHistory } from 'react-router'
+import search from "./images/search.png"
+import Search from "./Search.js"
 
 function Nav() {
 
@@ -40,6 +42,7 @@ useEffect(() => {
             src={avatar} 
             alt="" />
             {/* <button className="signOut" onClick= {dispatch(logout)}> Sign Out </button> */}
+            <Search/>
             </div>
         </div>
     )
