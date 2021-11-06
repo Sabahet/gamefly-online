@@ -1,3 +1,7 @@
 .app{
   background-color:#1565D8 ;
+  overflow: hidden;
+}
+.app ::-webkit-scrollbar{
+  display:none;
 }

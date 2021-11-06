@@ -4,23 +4,10 @@ import axios from "./axios.js"
 import searchButtonIcon from "./images/search.png"
 import { useHistory } from 'react-router'
 
+// REFERCNE THIS FOR CART
 function Search() {
     const history = useHistory()
     const [input, setInput] = useState('')
-    // let fetchUrl = "https://api.rawg.io/api/games?key=bf425ff2b5be4af99896cc61ca759774&search="
-    // const [searchTerm, setSearch] = useState("");
-
-    // const [games, setGames] = useState([]);
-
-    // useEffect(() =>{
-    // async function fetchData(){
-    //     const request = await axios.request(fetchUrl+searchTerm);
-    //     setGames(request.data.results);
-    //     return request;
-        
-    // }
-    // fetchData();
-    // }, [fetchUrl])
 
     return (
 <div class="wrap">

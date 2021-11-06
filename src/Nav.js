@@ -30,12 +30,14 @@ useEffect(() => {
     return (
         <div className ={`nav ${show && 'nav__blue'}`}>
             <div className = 'nav__contents'>
-
+            
             <img 
             onClick= {() => history.push("/")}
             className='nav__logo' 
             src={logo} alt=""/>
-            
+            <div class="buttons">
+            <button  class="btn btn-white" onClick = {()=> history.push("/library")} > My Library </button>
+            </div>
             <img 
             onClick={() => history.push("/profile")} 
             className='nav__avatar' 

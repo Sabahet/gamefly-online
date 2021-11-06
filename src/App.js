@@ -12,6 +12,7 @@ import {useDispatch,useSelector} from "react-redux"
 import { login,logout,selectUser } from './features/userSlice';
 import Profile from "./screens/ProfileScreen.js"
 import SearchResults from './screens/SearchResults';
+import Library from "./screens/Library.js"
 
 function App() {
 const user = useSelector(selectUser)
@@ -44,6 +45,9 @@ return unsubscribe;
         ): (
 
       <Switch>
+         <Route path = "/library">
+      <Library/>
+          </Route>
         <Route path = "/profile">
         <Profile/>
         </Route>

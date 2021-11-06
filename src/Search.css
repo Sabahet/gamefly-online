@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
-  background: #f2f2f2;
+  background: #000000;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,11 +19,11 @@ body{
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9DBFAF;
+  color: #000000;
 }
 
 .searchTerm:focus{
-  color: #ffffff;
+  color: #000000;
 }
 
 .searchButton {
