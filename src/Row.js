@@ -16,6 +16,7 @@ async function fetchData(){
 fetchData();
 }, [fetchUrl])
 
+console.log(games)
     return (
         <div className = "row">
             <h2> {title} </h2>

@@ -9,7 +9,7 @@
     background-color: white;
   }
   
-  .cards {
+  .cards3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 100fr));
     gap: 2rem;
@@ -19,7 +19,7 @@
 
   }
   
-  .card {
+  .card3 {
     position: relative;
     display: block;
     height: 100%;  
@@ -28,12 +28,12 @@
     text-decoration: none;
   }
   
-  .card__image {      
+  .card__image3 {      
     width: 100%;
     height: auto;
   }
   
-  .card__overlay {
+  .card__overlay3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -46,11 +46,11 @@
 
   }
   
-  .card:hover .card__overlay {
+  .card3:hover .card__overlay3 {
     transform: translateY(0);
   }
   
-  .card__header {
+  .card__header3 {
     position: relative;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@
     cursor: default;
   }
   
-  .card__arc {
+  .card__arc3 {
     width: 20px;
     height: 80px;
     position: absolute;
@@ -72,35 +72,35 @@
     z-index: 1;
   }
   
-  .card__arc path {
+  .card__arc3 path {
     fill: var(--surface-color);
     
   }       
   
-  .card:hover .card__header {
+  .card3:hover .card__header3 {
     transform: translateY(0);
   }
   
-  .card__thumb {
+  .card__thumb3 {
     flex-shrink: 0;
     width: 50px;
     height: 50px;      
     border-radius: 50%;      
   }
   
-  .card__title {
+  .card__title3 {
     font-size: 1em;
     margin: 0 0 .3em;
     color: #000000;
   }
   
   
-  .card__status {
+  .card__status3 {
     font-size: .8em;
     color: #000000;
   }
   
-  .card__description {
+  .card__description3 {
     padding: 0 2em 2em;
     margin: 0;
     color: #000000;
@@ -111,8 +111,11 @@
     overflow: hidden;
   }  
 
-
-.button{
+.add-to-library{
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.button2{
   cursor: pointer;
  
   right: 20px;

@@ -4,6 +4,7 @@ import "./Plans.css"
 import {useSelector} from "react-redux"
 import {selectUser} from "../features/userSlice.js"
 import {loadStripe} from "@stripe/stripe-js"
+
 function Plans() {
     const user = useSelector(selectUser)
     const [products,setProducts] = useState([]);
@@ -24,7 +25,7 @@ function Plans() {
             })
         })
     },[user.uid])
-
+    
     useEffect(()=>{
         db.collection('products')
         .where("active", "==", true)
